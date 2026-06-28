@@ -1,9 +1,15 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
     <section className="min-h-screen flex items-center justify-center px-6">
-      <div className="max-w-5xl text-center">
+      <motion.div 
+        className="max-w-5xl text-center"
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.8 }}
+      >
 
         <p className="text-cyan-400 text-lg mb-4">
           ✋🏻 HELLO, I'm
@@ -48,6 +54,8 @@ const Hero = () => {
           <a
             href="https://github.com/Aravind-Reddy-S"
             target="_blank"
+            rel="noopener noreferrer"
+            aria-label="GitHub Profile"
           >
             <FaGithub className="hover:text-cyan-400 transition" />
           </a>
@@ -55,11 +63,13 @@ const Hero = () => {
           <a
             href="https://www.linkedin.com/in/sangem-aravind-reddy-b115a2352"
             target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn Profile"
           >
             <FaLinkedin className="hover:text-cyan-400 transition" />
           </a>
         </div>
-      </div>
+      </motion.div>
     </section>
   );
 };
