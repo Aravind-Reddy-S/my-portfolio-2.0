@@ -2,11 +2,11 @@ import { motion } from "framer-motion";
 
 const projects = [
   {
-    title: "ALPHA AI Assistant",
+    title: "Vayu",
     tech: "Python • OpenAI API • AI Assistant",
     description:
       "Intelligent AI assistant capable of handling user interactions, automation workflows, and AI-powered conversational experiences using modern LLM technologies.",
-    github: "https://github.com/Aravind-Reddy-S/ALPHA-AI-Assistant",
+    github: "https://github.com/Aravind-Reddy-S/Vayu.git",
   },
   {
     title: "College Chatbot v2.0",
