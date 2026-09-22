@@ -42,7 +42,7 @@ const Navbar = () => {
           </ul>
 
           <a
-            href="/resume.pdf"
+            href="/Sangem_Aravind_Reddy_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-semibold bg-cyan-500/10 text-cyan-400 border border-cyan-500/30 hover:bg-cyan-500 hover:text-slate-950 transition duration-300"
@@ -79,7 +79,7 @@ const Navbar = () => {
             ))}
             <li className="pt-2">
               <a
-                href="/resume.pdf"
+                href="/Sangem_Aravind_Reddy_Resume.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center justify-center gap-2 w-full py-3 rounded-xl font-semibold bg-cyan-500 text-slate-950 hover:bg-cyan-400 transition"

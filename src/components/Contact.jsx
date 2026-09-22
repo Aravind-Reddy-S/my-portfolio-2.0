@@ -88,7 +88,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="/resume.pdf"
+            href="/Sangem_Aravind_Reddy_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 w-full sm:w-auto border border-slate-700 bg-slate-950 hover:bg-slate-800 text-white px-8 py-3.5 rounded-2xl font-semibold transition"
