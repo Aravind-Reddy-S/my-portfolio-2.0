@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin, FaEnvelope, FaHeart } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -15,23 +15,26 @@ const Footer = () => {
             href="https://github.com/Aravind-Reddy-S"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-cyan-400 transition"
+            className="flex items-center gap-1.5 hover:text-cyan-400 transition"
           >
-            GitHub
+            <FaGithub />
+            <span>GitHub</span>
           </a>
           <a
             href="https://www.linkedin.com/in/sangem-aravind-reddy-b115a2352"
             target="_blank"
             rel="noopener noreferrer"
-            className="hover:text-cyan-400 transition"
+            className="flex items-center gap-1.5 hover:text-cyan-400 transition"
           >
-            LinkedIn
+            <FaLinkedin />
+            <span>LinkedIn</span>
           </a>
           <a
             href="mailto:aravindreddy1916@gmail.com"
-            className="hover:text-cyan-400 transition"
+            className="flex items-center gap-1.5 hover:text-cyan-400 transition"
           >
-            Email
+            <FaEnvelope />
+            <span>Email</span>
           </a>
         </div>
 

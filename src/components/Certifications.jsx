@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import { FaCertificate, FaAward, FaUniversity, FaRobot, FaBrain } from "react-icons/fa";
+import { FaCertificate, FaAward, FaUniversity, FaBrain } from "react-icons/fa";
 
 const certifications = [
   {

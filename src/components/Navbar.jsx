@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import { FaBars, FaTimes, FaFileAlt } from "react-icons/fa";
 
 const Navbar = () => {
